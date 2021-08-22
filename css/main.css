@@ -87,6 +87,187 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*--- General styles ---*/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #36393B;
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+}
+
+ul, ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, a, p {
+  color: #dddddd;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h3 {
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.285;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 40px;
+}
+
+/* ------------------------- Base Header - Footer Styles -------------------- */
+
+header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header {
+  padding: 15px 0;
+  }
+
+header h2 {
+  color: #c79d2f;
+  font-size: 1.125em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+ }
+
+.header-divider {
+  background: #dddddd;
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 10px 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  font-size: 1.125em;
+  font-weight: 400;
+  width: 100%;
+ }
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+ }
+
+header nav ul li {
+  font-size: 1.125em;
+}
+
+footer {
+  flex-direction: column;
+  text-align: center;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer .social-icons p i {
+  font-size: 1.3em;
+}
+
+footer .social-icons p {
+  background-color: #c79d2f;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .copyright {
+  margin: 20px 0;
+}
+
+.copyright p {
+  font-size: 0.875em;
+  line-height: 16.8px;
+}
+
+/* ==================== Mobile styles - Homepage ==================== */
+
+.hero-area {
+ display: flex;
+ justify-content: center;
+ flex-flow: row wrap;
+ background: url('../img/full-backgroundbw.png') center no-repeat #333;
+ background-size: cover;
+ min-height: 500px;
+}
+
+.hero-area h1 {
+  font-size: 3em;
+  font-family: 'Signika Negative', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 150px 0 0 30px;
+  width: 65%;
+}
+
+.hero-area span {
+  color: #c79d2f;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +441,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
