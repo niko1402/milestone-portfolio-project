@@ -94,7 +94,7 @@ html {
 }
 
 body {
-  background-color: #36393B;
+  background-color: #262829;
   font-size: 1em;
   font-family: 'Raleway', sans-serif;
   text-align: left;
@@ -106,7 +106,7 @@ ul, ol {
   padding: 0;
 }
 
-h1, h2, h3, h4, a, p {
+h1, h2, h3, h4, a {
   color: #dddddd;
 }
 
@@ -114,10 +114,14 @@ a {
   text-decoration: none;
 }
 
-h1, h3 {
+h1, h2, h3 {
   font-family: 'Signika Negative', sans-serif;
-  font-weight: 600;
   margin: 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 400;
 }
 
 p {
@@ -139,7 +143,7 @@ address {
 
 .content-wrapper {
   width: 90%;
-  margin: 40px;
+  margin: 30px 0;
 }
 
 /* ------------------------- Base Header - Footer Styles -------------------- */
@@ -155,9 +159,8 @@ header {
   padding: 15px 0;
   }
 
-header h2 {
-  color: #c79d2f;
-  font-size: 1.125em;
+header h3 {
+  font-size: 1.5em;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -202,17 +205,32 @@ footer {
   text-align: center;
 }
 
+footer .content-wrapper {
+  width: 100%;
+  margin: 50px 0;
+}
+
 footer .contact {
   margin-bottom: 50px;
 }
 
+footer h2 {
+  color: #c79d2f;
+  font-weight: 400;
+}
+
+footer h4 {
+  font-size: 1.125em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 footer p {
+  color: #dddddd;
   margin: 0;
 }
 
-footer .content-wrapper {
-  width: 55%;
-  margin: 50px 0;
+footer .social {
+  margin-bottom: 50px;
 }
 
 footer .social-icons p i {
@@ -231,12 +249,13 @@ footer .social-icons p {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 footer .copyright {
   margin: 20px 0;
+  width: 100%;
 }
 
 .copyright p {
@@ -246,13 +265,18 @@ footer .copyright {
 
 /* ==================== Mobile styles - Homepage ==================== */
 
+/* ---- Hero Area ----*/
+
+.hero-area .content-wrapper {
+  width: 100%;
+}
+
 .hero-area {
  display: flex;
  justify-content: center;
  flex-flow: row wrap;
- background: url('../img/full-backgroundbw.png') center no-repeat #333;
+ background: url('../img/full-backgroundbw.png') center no-repeat;
  background-size: cover;
- min-height: 500px;
 }
 
 .hero-area h1 {
@@ -260,12 +284,92 @@ footer .copyright {
   font-family: 'Signika Negative', Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 1.2;
-  margin: 150px 0 0 30px;
+  margin: 50px;
   width: 65%;
 }
 
 .hero-area span {
   color: #c79d2f;
+}
+
+/* ---- Portfolio Area ---- */
+
+.portfolio-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.portfolio-area .header-divider {
+  margin: 10px 0 30px 0;
+}
+
+.portfolio-area article {
+  text-align: center;
+}
+
+.portfolio-area .content-wrapper figure {
+  width: ;
+  margin: 0 70px 40px 70px;
+}
+
+.portfolio-area h3 {
+  color: #c79d2f;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1;
+  width: 100%;
+}
+
+.portfolio-area h4 {
+  margin: 0;
+}
+
+.portfolio-area p {
+  color: #dddddd;
+  font-size: .875em;
+  margin-top: 0;
+}
+
+.portfolio-area .recipe article {
+  display: flex;
+  flex-flow: column-reverse;
+}
+
+/* ---- About Me ---- */
+
+.about-area {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background: url('../img/about-me.png') center no-repeat;
+  background-size: cover;
+}
+
+.about-area .content-wrapper {
+  justify-content: center;
+  width:70%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.about-area h3 {
+  color: #c79d2f;
+  text-align: center;
+  padding-bottom: 15px;
+  line-height: 1;
+}
+
+.about-area h4 {
+  color: #262829;
+  margin-top: 0;
+  margin: 0;
+}
+
+.about-area p {
+  font-size: .875em;
+  color: #262829;
 }
 
 /* ==========================================================================
