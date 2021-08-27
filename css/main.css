@@ -124,6 +124,9 @@ h3 {
   font-weight: 400;
 }
 
+h4 {
+  font-size: 1.25em;
+}
 p {
   font-size: 1em;
   line-height: 1.285;
@@ -277,10 +280,11 @@ footer .copyright {
  flex-flow: row wrap;
  background: url('../img/full-backgroundbw.png') center no-repeat;
  background-size: cover;
+ min-height: 500px;
 }
 
 .hero-area h1 {
-  font-size: 3em;
+  font-size: 4em;
   font-family: 'Signika Negative', Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 1.2;
@@ -309,8 +313,7 @@ footer .copyright {
   text-align: center;
 }
 
-.portfolio-area .content-wrapper figure {
-  width: ;
+.portfolio-area figure {
   margin: 0 70px 40px 70px;
 }
 
@@ -357,7 +360,7 @@ footer .copyright {
 .about-area h3 {
   color: #c79d2f;
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   line-height: 1;
 }
 
@@ -460,9 +463,186 @@ footer .copyright {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /******** Tablet styles here ********/
+
+  .content-wrapper {
+    max-width: 640px;
+    margin: 50px 0;
 }
+/* ==========================================================================
+    Main page
+  =========================================================================*/
+
+  h3 {
+    font-size: 2em;
+    line-height: 1.25;
+  }
+
+  h4 {
+    font-size: 1.3125;
+    line-height: 1.25;
+  }
+    /** Header **/
+
+  header {
+    justify-content: space-around;
+    padding: 30px 0;
+  }
+
+  header .content-wrapper {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  header nav {
+   width: 40%;
+  }
+
+  header h3 {
+    font-size: 1.75em;
+    width: 50%;
+  }
+
+  header nav ul {
+    justify-content: space-between;
+  }
+
+
+  .header-divider {
+    display: none;
+  }
+
+    /** Hero Area **/
+
+  .hero-area {
+    min-height: 600px;
+  }
+
+  .hero-area h1 {
+    font-size: 4.25em;
+    line-height: 1.333;
+    margin-top: 100px;
+  }
+
+  /** Portfolio Area **/
+
+  .portfolio-area figure {
+    margin: 0;
+  }
+
+  .portfolio-area h4 {
+    margin: 30px 0 10px 0;
+  }
+
+  /** About **/
+
+  .about-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('../img/about-me.png') center no-repeat;
+    background-size: cover;
+  }
+
+  .about-area .content-wrapper {
+    justify-content: center;
+    width:70%;
+    padding-left: 40px;
+  }
+
+  .about-area h3 {
+    color: #c79d2f;
+    text-align: center;
+    padding-bottom: 20px;
+    line-height: 1;
+  }
+
+  .about-area h4 {
+    color: #262829;
+    margin-top: 0;
+    margin: 0;
+  }
+
+  .about-area p {
+    font-size: 1em;
+    color: #262829;
+  }
+
+@media only screen and (min-width: 1200px) {
+
+  /******** Desktop styles here ********/
+
+  .content-wrapper {
+    max-width: 960px;
+ }
+
+/* =======================================================================
+    Main page
+  ====================================================================== */
+
+  /** Header **/
+
+header .content-wrapper {
+  width: 100%;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.75em;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.333;
+}
+
+  /** Hero -area **/
+
+.hero-area h1 {
+  font-size: 4.5em;
+  line-height: 1.333;
+  margin: 150px;
+}
+
+  /** Portfolio-area **/
+
+.portfolio-area article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-area figure {
+  margin: 40px 0 20px 0;
+  width: 49%;
+}
+
+.portfolio-area article div {
+  width: 49%;
+  align-items: center;
+}
+
+.portfolio-area .recipe article {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+  /** About **/
+
+
+
+  /** Footer **/
+
+
+
+
+
+
+
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
