@@ -509,9 +509,9 @@ footer .copyright {
   }
 
 
-  .header-divider {
-    display: none;
-  }
+  /* .header-divider { */
+    /* display: none; */
+  /* } */
 
     /** Hero Area **/
 
@@ -609,6 +609,10 @@ p {
 }
 
   /** Portfolio-area **/
+
+.portfolio-area .header-divider {
+  margin: 10px 0 10px 0;
+}
 
 .portfolio-area article {
   display: flex;
