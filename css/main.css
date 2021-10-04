@@ -352,9 +352,9 @@ footer .copyright {
 
 .about-area .content-wrapper {
   justify-content: center;
-  width:70%;
   margin-top: 30px;
   margin-bottom: 40px;
+  width: 90%;
 }
 
 .about-area h3 {
@@ -373,6 +373,7 @@ footer .copyright {
 .about-area p {
   font-size: .875em;
   color: #262829;
+  width: 70%
 }
 
 /* ==========================================================================
@@ -495,6 +496,10 @@ footer .copyright {
     width: 100%;
   }
 
+  header .header-divider {
+    display: none;
+  }
+
   header nav {
    width: 40%;
   }
@@ -539,7 +544,7 @@ footer .copyright {
 
   .about-area {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background: url('../img/about-me.png') center no-repeat;
     background-size: cover;
@@ -547,7 +552,7 @@ footer .copyright {
 
   .about-area .content-wrapper {
     justify-content: center;
-    width:70%;
+    width:90%;
     padding-left: 40px;
   }
 
@@ -562,6 +567,7 @@ footer .copyright {
     color: #262829;
     margin-top: 0;
     margin: 0;
+    text-align: left;
   }
 
   .about-area p {
