@@ -374,6 +374,19 @@ footer .copyright {
   flex-flow: column-reverse;
 }
 
+.preview {
+  padding: 1em 3em;
+  border-radius: 50px;
+  margin-top: 1em;
+  color: #fff;
+  background: #ff8d5c;
+  font-size: 1em;
+  align-self: center;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
 /* ---- Skills Area ----*/
 
 .skills-area {
