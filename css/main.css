@@ -375,12 +375,12 @@ footer .copyright {
 }
 
 .preview {
-  padding: 1em 3em;
+  padding: 1rem 3rem;
   border-radius: 50px;
-  margin-top: 1em;
+  margin-top: 1rem;
   color: #fff;
-  background: #ff8d5c;
-  font-size: 1em;
+  background: #461111;
+  font-size: 1.25rem;
   align-self: center;
   outline: none;
   border: 0;
