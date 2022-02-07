@@ -112,7 +112,6 @@ a {
 
 h1, h2, h3 {
   font-family: 'Signika Negative', sans-serif;
-  margin: 0;
 }
 
 h2 {
@@ -122,7 +121,6 @@ h2 {
 
 h4 {
   font-size: 1.25rem;
-  margin: 0;
 }
 
 p {
@@ -140,6 +138,22 @@ figure {
 
 address {
   font-style: normal;
+}
+
+/* Zero all margins */
+
+h1, h2, h3, h4 {
+  margin:0;
+}
+
+p {
+  margin: 0;
+}
+
+/* Now set margins to required values */
+
+.preview {
+  margin: 40px 0 40px 0;
 }
 
 .content-wrapper {
@@ -322,18 +336,31 @@ footer .copyright {
 
 /* ---- Portfolio Area ---- */
 
+.project-description {
+  margin: 0 0 30px 0;
+}
+
 .portfolio-area {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 100%;
+}
+
+.portfolio-area span {
+  font-weight: bold;
 }
 
 .portfolio-area .header-divider {
   margin: .625rem 0 1.875rem 0;
 }
 
-.portfolio-area .portfolio-piece {
+.portfolio-area .preview {
+  margin: 40px 0 40px 0;
+}
+
+.portfolio-piece {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -364,27 +391,33 @@ footer .copyright {
 }
 
 .portfolio-area p {
+  text-align: left;
   color: #dddddd;
   font-size: .875rem;
-  margin-top: 0;
+  width: 100%;
 }
 
-.portfolio-area .recipe article {
-  display: flex;
-  flex-flow: column-reverse;
-}
-
-.preview {
-  padding: 1rem 3rem;
-  border-radius: 50px;
-  margin-top: 1rem;
-  color: #fff;
-  background: #461111;
+button {
+  font-family: 'Raleway', sans-serif;
   font-size: 1.25rem;
-  align-self: center;
-  outline: none;
+  font-weight: bold;
+}
+
+.preview-link {
+  padding: .625rem 1.25rem;
+  border-radius: 30px;
   border: 0;
+  align-self: center;
+  margin: 40px 0 40px 0;
+  color: #c79d2f ;
+  background: #262829;
+  outline: none;
   cursor: pointer;
+}
+
+.preview-link:hover {
+  background-color: #dddddd;
+  color: #a13333;
 }
 
 /* ---- Skills Area ----*/
@@ -825,4 +858,4 @@ p {
   h3 {
     page-break-after: avoid;
   }
-}
+};
