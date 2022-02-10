@@ -95,9 +95,8 @@ html {
 
 body {
   background-color: #262829;
-  font-size: 1rem;
+  font-size: 1em;
   font-family: 'Raleway', sans-serif;
-  text-align: left;
 }
 
 ul, ol {
@@ -122,6 +121,11 @@ h1, h2, h3 {
 h2 {
   font-size: 2.5rem;
   font-weight: 400;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.75rem;
 }
 
 h4 {
@@ -158,7 +162,7 @@ address {
 
 /* Structural Styles */
 header,
-#portfolio,
+#projects,
 #skills,
 #about,
 footer {
@@ -172,7 +176,7 @@ footer {
   width: 90%;
 }
 
-#portfolio p, #about p {
+#projects p, #about p {
   width: 100%;
   text-align: left;
 }
@@ -186,9 +190,13 @@ p {
   margin: 0;
 }
 
+figure {
+  margin: 0;
+}
+
 /* Now set margin and paddings to required values for any element */
 
-#portfolio {
+#projects {
   padding-top: 60px;
 }
 
@@ -244,7 +252,6 @@ header {
   }
 
 header h3 {
-  font-size: 1.5rem;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -401,21 +408,26 @@ footer .copyright {
 
 /* ---- Portfolio Area ---- */
 
-.portfolio-area {
+#projects,
+#skills {
+  width: 100%;
+}
+
+.portfolio-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: row wrap;
   width: 100%;
 }
 
-.portfolio-area span {
+.portfolio-wrapper span {
   font-weight: bold;
 }
 
-.portfolio-area .header-divider {
+/* .portfolio-area .header-divider {
   margin: .625rem 0 1.875rem 0;
-}
+} */
 
 .portfolio-piece {
   width: 100%;
@@ -425,17 +437,12 @@ footer .copyright {
   align-items: center;
 }
 
-.portfolio-area article {
-  text-align: center;
-}
-
 .portfolio-piece figure {
   width: 100%;
   filter: drop-shadow(1px 2px 6px #c79d2f);
-  margin: 1.250rem 0 2.5rem 0;
 }
 
-#portfolio h2 {
+#projects h2 {
   color: #c79d2f;
   text-align: center;
   margin-bottom: 1.875rem;
@@ -443,11 +450,11 @@ footer .copyright {
   width: 100%;
 }
 
-#portfolio h4 {
+#projects h4 {
   margin: 0;
 }
 
-#portfolio p {
+#projects p {
   text-align: left;
   color: #dddddd;
   font-size: .875rem;
@@ -461,10 +468,8 @@ footer .copyright {
 .project-link {
   padding: .75rem 3.75rem;
   border-radius: 30px;
-  align-self: center;
   color: #c79d2f ;
-  background: #262829;
-  outline: none;
+  background-color: #262829;
   cursor: pointer;
 }
 
@@ -500,7 +505,7 @@ footer .copyright {
 .skills-area h4 {
   margin-top: 40px 0 40px 0;
   font-weight: bold;
-  text-align: center; */
+  text-align: center; 
 }
 
 /* .language-wrapper, .tool-wrapper {
