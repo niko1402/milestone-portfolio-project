@@ -291,6 +291,10 @@ header nav ul li {
   font-size: 1.125rem;
 }
 
+ul li a:hover {
+  color: #c79d2f;
+}
+
 footer {
   display: flex;
   flex-direction: column;
