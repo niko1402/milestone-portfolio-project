@@ -418,11 +418,6 @@ footer .copyright {
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
-  width: 100%;
-}
-
-.portfolio-wrapper span {
-  font-weight: bold;
 }
 
 /* .portfolio-area .header-divider {
@@ -503,7 +498,7 @@ footer .copyright {
 }
 
 .skills-area h4 {
-  margin-top: 40px 0 40px 0;
+  margin: 40px 0 40px 0;
   font-weight: bold;
   text-align: center; 
 }
@@ -518,7 +513,6 @@ footer .copyright {
 
 .language-wrapper p, .tool-wrapper p {
   color: #a13333;
-  line-height: 1.5;
   margin: 20px 0;
   padding: 15px 0;
 }
