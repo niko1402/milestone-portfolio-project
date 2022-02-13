@@ -153,11 +153,15 @@ address {
   font-style: normal;
 }
 
-.project-link,
 .language-wrapper p,
 .tool-wrapper p {
   text-transform: uppercase;
   font-size: 1.125rem;
+}
+
+.project-link {
+  font-size: 1.25rem;
+  text-transform: uppercase;
 }
 
 /* Structural Styles */
@@ -196,18 +200,18 @@ figure {
 
 /* Now set margin and paddings to required values for any element */
 
-#projects {
+/* #projects {
   padding-top: 60px;
-}
+} */
 
-#skills {
+/* #skills {
   padding-top: 80px;
   padding-bottom: 80px;
-}
+} */
 
 #about {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 0;
 }
 
 figure {
@@ -219,7 +223,7 @@ footer {
 }
 
 h2 {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 h3 {
@@ -235,7 +239,7 @@ h4 {
 }
 
 .project-link {
-  margin: 40px 0 60px 0;
+  margin: 40px 0 45px 0;
 }
 
 /* ------------------------- Base Header - Footer Styles -------------------- */
@@ -327,9 +331,9 @@ footer h2 {
 }
 
 footer h4 {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  padding-bottom: 1.875rem;
+  padding-bottom: 1rem;
 }
 footer p {
   color: #dddddd;
@@ -450,7 +454,7 @@ footer .copyright {
 }
 
 #projects h4 {
-  margin: 0;
+  margin: 20px 0 40px 0;
 }
 
 #projects p {
@@ -458,10 +462,6 @@ footer .copyright {
   color: #dddddd;
   font-size: .875rem;
   width: 100%;
-}
-
-.project-description {
-  margin: 0 0 30px 0;
 }
 
 .project-link {
@@ -486,7 +486,7 @@ footer .copyright {
   flex-flow: row wrap;
   width: 100%;
   padding-top: 1.875rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1.75rem;
 }
 
 /* .skills-area .content-wrapper {
@@ -496,6 +496,7 @@ footer .copyright {
 
 .skills-area h2 {
   color: #c79d2f;
+  margin-top: 45px;
   text-align: center;
   line-height: 1;
   width: 100%;
@@ -503,6 +504,7 @@ footer .copyright {
 
 .skills-area h4 {
   margin: 40px 0 40px 0;
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: center; 
 }
@@ -518,7 +520,7 @@ footer .copyright {
 .language-wrapper p, .tool-wrapper p {
   color: #a13333;
   margin: 20px 0;
-  padding: 15px 0;
+  padding: 0;
 }
 
 .skill {
@@ -542,7 +544,7 @@ footer .copyright {
 .about-area .content-wrapper {
   justify-content: center;
   padding-top: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
   width: 90%;
 }
 
@@ -555,8 +557,8 @@ footer .copyright {
 
 .about-area h4 {
   color: #262829;
-  margin-top: 0;
-  margin: 0;
+  margin-top: 30px;
+  text-align: left;
 }
 
 .about-area p {
