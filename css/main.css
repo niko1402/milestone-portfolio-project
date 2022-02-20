@@ -403,11 +403,11 @@ footer .copyright {
 }
 
 .hero-area h1 {
-  font-size: 4em;
+  font-size: 3.25em;
   font-family: 'Signika Negative', Helvetica, Arial, sans-serif;
   font-weight: 600;
-  line-height: 1.2;
-  margin: 3.125rem;
+  line-height: 1.5;
+  margin: 70px 0 70px 45px;
   width: 65%;
 }
 
@@ -657,24 +657,31 @@ footer .copyright {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
+
   /******** Tablet styles here ********/
 
+  /*** General Styles ***/
+
   .content-wrapper {
-    margin: 50px 0;
+    max-width: 640px;
 }
-/* ==========================================================================
-    Main page
-  =========================================================================*/
+
+  /*** Font Styles ***/
 
   h3 {
-    font-size: 2rem;
-    line-height: 1.25;
+  font-size: 2rem;
+  line-height: 1.25;
   }
 
   h4 {
-    font-size: 1.3125rem;
-    line-height: 1.25;
+  font-size: 1.75rem;
   }
+
+  p {
+  font-size: 1.5rem;
+  line-height: 1.333;
+  }
+
     /** Header **/
 
   header {
@@ -704,11 +711,6 @@ footer .copyright {
     justify-content: space-between;
   }
 
-
-  /* .header-divider { */
-    /* display: none; */
-  /* } */
-
     /** Hero Area **/
 
   .hero-area {
@@ -716,8 +718,8 @@ footer .copyright {
   }
 
   .hero-area h1 {
-    font-size: 4.25rem;
-    line-height: 1.333;
+    font-size: 4rem;
+    line-height: 1.75;
     margin-top: 100px;
   }
 
@@ -782,19 +784,6 @@ footer .copyright {
 
 header .content-wrapper {
   width: 100%;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
-h4 {
-  font-size: 1.75rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.333;
 }
 
   /** Hero -area **/
