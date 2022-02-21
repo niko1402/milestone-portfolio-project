@@ -118,23 +118,31 @@ h1, h2, h3 {
   font-family: 'Signika Negative', sans-serif;
 }
 
+h1 {
+  font-size: 1.75rem;
+  line-height: 1.5;
+  width: 100%;
+}
+
 h2 {
-  font-size: 2.5rem;
+  font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.5;
 }
 
 h3 {
   font-size: 1.75rem;
+  line-height: 1.5;
 }
 
 h4 {
   font-size: 1.25rem;
+  line-height: 1.5;
 }
 
 p {
   font-size: 1rem;
-  line-height: 1.285;
+  line-height: 1.5;
 }
 
 span {
@@ -156,7 +164,6 @@ address {
 .language-wrapper p,
 .tool-wrapper p {
   text-transform: uppercase;
-  font-size: 1.125rem;
   word-spacing: .25rem;
 }
 
@@ -185,6 +192,7 @@ footer {
   width: 100%;
   text-align: left;
 }
+
 /* Zero all margins */
 
 h1, h2, h3, h4 {
@@ -199,16 +207,15 @@ figure {
   margin: 0;
 }
 
-/* Now set margin and paddings to required values for any element */
+/** Now set margin and paddings to required values for any element **/
 
-/* #projects {
+#projects {
   padding-top: 60px;
-} */
+}
 
-/* #skills {
-  padding-top: 80px;
+#skills {
   padding-bottom: 80px;
-} */
+}
 
 #about {
   padding-top: 30px;
@@ -235,12 +242,32 @@ h4 {
   margin: 0 0 40px 0;
 }
 
+#projects h4 {
+  margin: 20px 0 40px 0;
+}
+
 .project-description {
   margin: 0 0 30px 0;
 }
 
 .project-link {
   margin: 40px 0 45px 0;
+}
+
+.about-area h2 {
+  padding-bottom: 20px;
+}
+
+.about-area h4 {
+  margin-top: 30px;
+}
+
+.skills-area h2 {
+  margin-top: 45px;
+}
+
+.skills-area h4 {
+  margin: 40px 0 40px 0;
 }
 
 /* ------------------------- Base Header - Footer Styles -------------------- */
@@ -253,8 +280,12 @@ header, footer {
 }
 
 header {
-  padding: 0.938rem 0;
+  padding: 30px 0 60px 0;
   }
+
+/* nav {
+    margin-bottom: 60px;
+} */
 
 header h3 {
   margin-top: 0;
@@ -304,8 +335,7 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top: 1.875rem;
-  padding-bottom: 2.5rem;
+  padding: 80px 0;
 }
 
 footer .contact-wrapper {
@@ -318,11 +348,7 @@ footer .contact-wrapper {
 }
 
 footer .contact-info {
-  margin-bottom: 3.125rem;
-}
-
-footer .content-wrapper {
-  margin: 0;
+  margin: 0 0 60px 0;
 }
 
 footer h2 {
@@ -336,6 +362,7 @@ footer h4 {
   font-weight: 700;
   padding-bottom: 1rem;
 }
+
 footer p {
   color: #dddddd;
   margin: 0;
@@ -361,15 +388,15 @@ footer .social-icons {
 }
 
 footer .social-icons li i {
-  font-size: 1.3rem;
+  font-size: 1.875rem;
 }
 
 footer .social-icons li {
   background-color: #c79d2f;
   border-radius: 50%;
-  height: 2.5rem;
+  height: 40px;
+  width: 40px;
   list-style-type: none;
-  width: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -399,7 +426,6 @@ footer .copyright {
  flex-flow: row wrap;
  background: url('../img/full-backgroundbw.png') center no-repeat;
  background-size: cover;
- min-height: 500px;
 }
 
 .hero-area h1 {
@@ -449,19 +475,14 @@ footer .copyright {
 #projects h2 {
   color: #c79d2f;
   text-align: center;
-  margin-bottom: 1.875rem;
+  margin-bottom: 30px;
   line-height: 1;
   width: 100%;
-}
-
-#projects h4 {
-  margin: 20px 0 40px 0;
 }
 
 #projects p {
   text-align: left;
   color: #dddddd;
-  font-size: .875rem;
   width: 100%;
 }
 
@@ -469,13 +490,13 @@ footer .copyright {
   padding: .75rem 3.75rem;
   border-radius: 30px;
   color: #c79d2f ;
-  background-color: #262829;
+  background-color: #611a29;
   cursor: pointer;
 }
 
 .project-link:hover {
   background-color: #dddddd;
-  color: #a13333;
+  color: #611a29;
 }
 
 /* ---- Skills Area ----*/
@@ -486,37 +507,19 @@ footer .copyright {
   align-items: center;
   flex-flow: row wrap;
   width: 100%;
-  padding-top: 1.875rem;
-  padding-bottom: 1.75rem;
+  padding-top: 30px;
+  padding-bottom: 28px
 }
-
-/* .skills-area .content-wrapper {
-  width: 85%;
-  margin: 1.875rem 0;
-}  */
 
 .skills-area h2 {
   color: #c79d2f;
-  margin-top: 45px;
-  text-align: center;
-  line-height: 1;
   width: 100%;
 }
 
 .skills-area h4 {
-  margin: 40px 0 40px 0;
   font-size: 1.5rem;
   font-weight: bold;
-  text-align: center; 
 }
-
-/* .language-wrapper, .tool-wrapper {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  flex-flow: row wrap;
-  text-transform: uppercase;
-} */
 
 .language-wrapper p, .tool-wrapper p {
   color: #a13333;
@@ -543,29 +546,17 @@ footer .copyright {
 }
 
 .about-area .content-wrapper {
-  justify-content: center;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 100px;
-  width: 90%;
 }
 
 .about-area h2 {
   color: #c79d2f;
-  text-align: center;
-  padding-bottom: 20px;
-  line-height: 1;
 }
 
 .about-area h4 {
   color: #262829;
-  margin-top: 30px;
   text-align: left;
-}
-
-.about-area p {
-  font-size: .875rem;
-  color: #262829;
-  width: 70%
 }
 
 /* ==========================================================================
