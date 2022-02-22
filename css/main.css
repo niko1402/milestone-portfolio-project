@@ -229,7 +229,7 @@ figure {
 }
 
 footer {
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 h2 {
@@ -276,6 +276,13 @@ h4 {
   margin: 0 0 40px 0;
 }
 
+.social h4 {
+  margin: 0;
+}
+
+.social p {
+  margin: 0 0 40px 0;
+}
 /* ------------------------- Base Header Styles -------------------- */
 
 /* header, footer {
