@@ -133,14 +133,16 @@ h2 {
 h3 {
   font-size: 1.75rem;
   line-height: 1.5;
+  width: 100%;
 }
 
 h4 {
   font-size: 1.25rem;
   line-height: 1.5;
+  width: 100%;
 }
 
-p {
+p, li {
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -168,7 +170,7 @@ address {
 }
 
 .project-link {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   text-transform: uppercase;
 }
 
@@ -185,7 +187,7 @@ footer {
 }
 
 .content-wrapper {
-  width: 90%;
+  width: 85%;
 }
 
 #projects p, #about p {
@@ -227,7 +229,7 @@ figure {
 }
 
 footer {
-  padding: 60px 0;
+  padding: 80px 0;
 }
 
 h2 {
@@ -270,14 +272,18 @@ h4 {
   margin: 40px 0 40px 0;
 }
 
+.contact-info {
+  margin: 0 0 40px 0;
+}
+
 /* ------------------------- Base Header Styles -------------------- */
 
-header, footer {
+/* header, footer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
+} */
 
 header {
   padding: 30px 0 60px 0;
@@ -407,13 +413,13 @@ ul li a:hover {
   padding: .75rem 3.75rem;
   border-radius: 30px;
   color: #c79d2f ;
-  background-color: #611a29;
+  background-color: #41562b;
   cursor: pointer;
 }
 
 .project-link:hover {
-  background-color: #dddddd;
-  color: #611a29;
+  background-color: #749a4d;
+  color: #262829;
 }
 
 /* ---- Skills Area ----*/
@@ -439,9 +445,11 @@ ul li a:hover {
 }
 
 .language-wrapper p, .tool-wrapper p {
-  color: #a13333;
-  margin: 20px 0;
-  padding: 0;
+  border-radius: 30px;
+  background-color: #526d36;
+  color: #c79d2f;
+  padding: 10px 0;
+  Margin: 20px 0;
 }
 
 .skill {
@@ -478,35 +486,31 @@ ul li a:hover {
 
 /* ------------------------ Base Footer Styles ------------------------- */
 
-footer {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-footer .contact-wrapper {
+.contact-wrapper {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-start;
-  margin: 0;
-  width: 100%;
 }
 
-footer .contact-info {
+footer .contact-info, .social {
   margin: 0 0 60px 0;
 }
+
+/* footer .contact-info {
+  width: 60%;
+} */
 
 footer h2 {
   color: #c79d2f;
   font-weight: 400;
-  padding-bottom: 2.5rem;
+  margin-bottom: 60px;
 }
 
 footer h4 {
   font-size: 1.5rem;
   font-weight: 700;
-  padding-bottom: 1rem;
+  width: 100%;
 }
 
 footer p {
@@ -524,17 +528,13 @@ footer .follow-section {
   justify-content: center;
 }
 
-footer .social {
-  margin-bottom: 3.125rem;
-}
-
 footer .social-icons {
   display: flex;
   justify-content: space-around;
 }
 
 footer .social-icons li i {
-  font-size: 1.875rem;
+  font-size: 2rem;
 }
 
 footer .social-icons li {
@@ -542,21 +542,15 @@ footer .social-icons li {
   border-radius: 50%;
   height: 40px;
   width: 40px;
-  list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 footer .copyright {
-  margin: 1.25rem 0;
   width: 100%;
 }
 
-.copyright p {
-  font-size: 0.875rem;
-  line-height: 16.8px;
-}
 
 /* ==========================================================================
    Helper classes
