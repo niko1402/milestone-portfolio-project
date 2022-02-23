@@ -110,7 +110,7 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   color: #dddddd;
 }
 
@@ -118,28 +118,30 @@ h1, h2, h3 {
   font-family: 'Signika Negative', sans-serif;
 }
 
-h1 {
-  font-size: 1.75rem;
+h1, h2, h3, h4, h5 {
   line-height: 1.5;
   width: 100%;
+}
+
+h1 {
+  font-size: 1.75rem;
 }
 
 h2 {
   font-size: 2rem;
   font-weight: 400;
-  line-height: 1.5;
 }
 
 h3 {
   font-size: 1.75rem;
-  line-height: 1.5;
-  width: 100%;
 }
 
 h4 {
   font-size: 1.25rem;
-  line-height: 1.5;
-  width: 100%;
+}
+
+h5 {
+  font-size: 1.5rem;
 }
 
 p, li {
@@ -197,7 +199,7 @@ footer {
 
 /* Zero all margins */
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   margin:0;
 }
 
@@ -212,7 +214,7 @@ figure {
 /** Now set margin and paddings to required values for any element **/
 
 #projects {
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 #skills {
@@ -229,7 +231,7 @@ figure {
 }
 
 footer {
-  padding: 60px 0;
+  padding: 80px 0;
 }
 
 h2 {
@@ -272,11 +274,15 @@ h4 {
   margin: 40px 0 40px 0;
 }
 
+#contact h5 {
+  margin: 40px 0 0 0;
+}
+
 .contact-info {
   margin: 0 0 40px 0;
 }
 
-.social h4 {
+.social h3 {
   margin: 0;
 }
 
@@ -508,15 +514,15 @@ footer .contact-info, .social {
   width: 60%;
 } */
 
-footer h2 {
+footer h3 {
   color: #c79d2f;
   font-weight: 400;
   margin-bottom: 60px;
 }
 
-footer h4 {
+footer h5 {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 400;
   width: 100%;
 }
 
@@ -529,10 +535,19 @@ footer ul {
   width: 100%;
 }
 
+footer address p {
+  color: #c79d2f;
+  margin-top: 40px;
+}
+
 footer .follow-section {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+}
+
+.social h5 {
+  margin: 40px 0 0 0;
 }
 
 footer .social-icons {
