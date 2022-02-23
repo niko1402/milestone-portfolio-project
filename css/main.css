@@ -89,6 +89,11 @@ textarea {
 
 /*--- General styles ---*/
 
+
+i {
+    color: #c79d2f;
+  }
+
 html {
   font-size: 16px;
 }
@@ -266,17 +271,17 @@ h4 {
   margin-top: 30px;
 }
 
-.skills-area h2 {
+#skills h2 {
   margin-top: 45px;
 }
 
-.skills-area h4 {
+#skills h4 {
   margin: 40px 0 40px 0;
 }
 
-#contact h5 {
+/* #contact h5 {
   margin: 40px 0 0 0;
-}
+} */
 
 .contact-info {
   margin: 0 0 40px 0;
@@ -437,7 +442,7 @@ ul li a:hover {
 
 /* ---- Skills Area ----*/
 
-.skills-area {
+#skills {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -447,12 +452,12 @@ ul li a:hover {
   padding-bottom: 28px
 }
 
-.skills-area h2 {
+#skills h2 {
   color: #c79d2f;
   width: 100%;
 }
 
-.skills-area h4 {
+#skills h4 {
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -499,20 +504,24 @@ ul li a:hover {
 
 /* ------------------------ Base Footer Styles ------------------------- */
 
-.contact-wrapper {
+footer .contact-wrapper {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-start;
 }
 
-footer .contact-info, .social {
+.contact-info, .social {
   margin: 0 0 60px 0;
 }
 
-/* footer .contact-info {
+.contact-info {
   width: 60%;
-} */
+}
+
+.contact-title {
+  margin: 0 0 40px 0;
+}
 
 footer h3 {
   color: #c79d2f;
@@ -547,7 +556,7 @@ footer .follow-section {
 }
 
 .social h5 {
-  margin: 40px 0 0 0;
+  margin: 0;
 }
 
 footer .social-icons {
