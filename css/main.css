@@ -159,7 +159,7 @@ span {
 }
 
 img {
-  width: 100%;
+  width: 80%;
 }
 
 figure {
@@ -568,16 +568,6 @@ footer .social-icons li i {
   font-size: 2rem;
 }
 
-/* footer .social-icons li {
-  background-color: #c79d2f;
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 footer .copyright {
   width: 100%;
 }
@@ -683,13 +673,25 @@ footer .copyright {
 
   /*** Font Styles ***/
 
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
   h3 {
   font-size: 2rem;
   line-height: 1.25;
   }
 
   h4 {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
   }
 
   p {
@@ -697,11 +699,13 @@ footer .copyright {
   line-height: 1.333;
   }
 
-    /** Header **/
+  /** List elements already have 20px of bottom margin **/
+
+  /** Header **/
 
   header {
     justify-content: space-around;
-    padding: 30px 0;
+    padding: 60px 0 80px 0;
   }
 
   header .content-wrapper {
@@ -714,7 +718,13 @@ footer .copyright {
   }
 
   header nav {
-   width: 40%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+
+  header nav ul li {
+    font-size: 1.125rem;
   }
 
   header h3 {
@@ -723,7 +733,9 @@ footer .copyright {
   }
 
   header nav ul {
+    display: flex;
     justify-content: space-between;
+    width: 80%;
   }
 
     /** Hero Area **/
@@ -748,6 +760,36 @@ footer .copyright {
     margin: 30px 0 10px 0;
   }
 
+  .portfolio-wrapper {
+    justify-content: space-around;
+  }
+
+  .project-description {
+    width: 95%;
+  }
+
+  .portfolio-piece {
+    width: 45%;
+    align-items: center;
+  }
+
+  .language-wrapper,
+  .tool-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-flow: row wrap;
+    text-transform: uppercase;
+  }
+
+  .language-wrapper p, .tool-wrapper p {
+    width: 45%;
+  }
+
+  .skill, .tool {
+    width: 45%;
+  }
+  
   /** About **/
 
   .about-area {
