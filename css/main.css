@@ -568,7 +568,7 @@ footer .social-icons li i {
   font-size: 2rem;
 }
 
-footer .social-icons li {
+/* footer .social-icons li {
   background-color: #c79d2f;
   border-radius: 50%;
   height: 40px;
@@ -576,7 +576,7 @@ footer .social-icons li {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 footer .copyright {
   width: 100%;
