@@ -279,10 +279,6 @@ h4 {
   margin: 40px 0 40px 0;
 }
 
-/* #contact h5 {
-  margin: 40px 0 0 0;
-} */
-
 .contact-info {
   margin: 0 0 40px 0;
 }
@@ -555,10 +551,6 @@ footer .follow-section {
   justify-content: center;
 }
 
-.social h5 {
-  margin: 0;
-}
-
 footer .social-icons {
   display: flex;
   justify-content: space-around;
@@ -669,7 +661,7 @@ footer .copyright {
 
   .content-wrapper {
     max-width: 640px;
-}
+  }
 
   /*** Font Styles ***/
 
@@ -694,11 +686,6 @@ footer .copyright {
     font-size: 1.5rem;
   }
 
-  p {
-  font-size: 1.5rem;
-  line-height: 1.333;
-  }
-
   /** List elements already have 20px of bottom margin **/
 
   /** Header **/
@@ -719,7 +706,7 @@ footer .copyright {
 
   header nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     width: 50%;
   }
 
@@ -789,9 +776,10 @@ footer .copyright {
   .skill, .tool {
     width: 45%;
   }
-  
+
   /** About **/
 
+  /* Change code for this section when the photo is ready */
   .about-area {
     display: flex;
     justify-content: center;
@@ -824,6 +812,39 @@ footer .copyright {
     font-size: 1rem;
     color: #262829;
   }
+
+  /** Footer **/
+
+  footer .contact-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer .contact-info {
+    width: 33%;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+
+  footer .social-icons li i {
+    font-size: 2rem;
+  }
+
+  footer .copyright {
+    width: 100%;
+  }
+}
 
 @media only screen and (min-width: 1200px) {
 
