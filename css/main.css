@@ -162,6 +162,10 @@ img {
   width: 80%;
 }
 
+.contain {
+  object-fit: contain;
+}
+
 figure {
   margin: 0;
 }
