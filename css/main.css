@@ -795,7 +795,7 @@ footer .copyright {
   .about-area .content-wrapper {
     justify-content: center;
     width:90%;
-    padding-left: 40px;
+    /* padding-left: 40px; */
   }
 
   .about-area h3 {
