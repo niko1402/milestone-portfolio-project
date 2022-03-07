@@ -226,7 +226,7 @@ figure {
 #projects,
 #skills,
 #about {
-  padding: 140px 0 140px 0;
+  padding: 140px 0 100px 0;
 }
 
 figure {
@@ -431,6 +431,16 @@ ul li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#skills h2 {
+  color: #c79d2f;
+  width: 100%;
+}
+
+#skills h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .skill-list {
