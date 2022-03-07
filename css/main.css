@@ -708,7 +708,7 @@ footer .copyright {
 
   header {
     justify-content: space-around;
-    padding: 60px 0 80px 0;
+    padding: 60px 0 200px 0;
   }
 
   header .content-wrapper {
@@ -776,7 +776,11 @@ footer .copyright {
     align-items: center;
   }
 
-  .language-wrapper,
+  .skill-list li {
+    flex-basis: 25%;
+  }
+
+  /* .language-wrapper,
   .tool-wrapper {
     display: flex;
     justify-content: space-evenly;
@@ -791,7 +795,7 @@ footer .copyright {
 
   .skill, .tool {
     width: 45%;
-  }
+  } */
 
   /** About **/
 
@@ -882,7 +886,7 @@ footer .copyright {
 
 @media only screen and (min-width: 1200px) {
 
-  /******** Desktop styles here ********/
+  /* =============== Desktop styles here =============== */
 
   .content-wrapper {
     max-width: 1450px;
@@ -924,7 +928,7 @@ header .content-wrapper {
 }
 
 header {
-  padding: 80px 0 140px 0;
+  padding: 80px 0 200px 0;
 }
 
 header h3 {
@@ -994,6 +998,8 @@ footer .social-icons {
   width: 12.5rem;
   justify-content: space-between;
 }
+}
+
 
 
 
