@@ -104,7 +104,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-ul, ol {
+ul, li {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -116,7 +116,7 @@ a {
 }
 
 h1, h2, h3, h4, h5 {
-  color: #dddddd;
+  color: #fff;
 }
 
 h1, h2, h3 {
@@ -174,18 +174,19 @@ address {
   font-style: normal;
 }
 
-.language-wrapper p,
+/* .language-wrapper p,
 .tool-wrapper p {
   text-transform: uppercase;
   word-spacing: .25rem;
-}
+} */
 
 .project-link {
   font-size: 1.125rem;
   text-transform: uppercase;
 }
 
-/* Structural Styles */
+/* ------ Structural Styles ------ */
+
 header,
 #projects,
 #skills,
@@ -222,17 +223,10 @@ figure {
 
 /** Now set margin and paddings to required values for any element **/
 
-#projects {
-  padding-top: 30px;
-}
-
-#skills {
-  padding-bottom: 80px;
-}
-
+#projects,
+#skills,
 #about {
-  padding-top: 30px;
-  padding-bottom: 0;
+  padding: 140px 0 140px 0;
 }
 
 figure {
@@ -296,13 +290,6 @@ h4 {
 }
 /* ------------------------- Base Header Styles -------------------- */
 
-/* header, footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-} */
-
 header {
   padding: 30px 0 60px 0;
   }
@@ -352,7 +339,6 @@ ul li a:hover {
 }
 
 
-
 /* ==================== Mobile styles - Homepage ==================== */
 
 /* ---- Hero Area ----*/
@@ -395,10 +381,6 @@ ul li a:hover {
   align-items: flex-start;
   flex-flow: row wrap;
 }
-
-/* .portfolio-area .header-divider {
-  margin: .625rem 0 1.875rem 0;
-} */
 
 .portfolio-piece {
   width: 100%;
@@ -784,6 +766,7 @@ footer .copyright {
   /** About **/
 
   /* Change code for this section when the photo is ready */
+
   .about-area {
     display: flex;
     justify-content: center;
@@ -807,8 +790,7 @@ footer .copyright {
 
   .about-area h4 {
     color: #262829;
-    margin-top: 0;
-    margin: 0;
+    margin: 25px 0 25px 0;
     text-align: left;
   }
 
@@ -819,13 +801,22 @@ footer .copyright {
 
   /** Footer **/
 
+  footer {
+    padding: 140px 0;
+  }
+
   footer .contact-wrapper {
     display: flex;
     justify-content: space-around;
   }
 
   footer .contact-info {
+    margin: 40px 0 80px 0;
     width: 33%;
+  }
+
+  footer h3 {
+    margin-bottom: 60px;
   }
 
   footer ul {
@@ -889,6 +880,10 @@ footer .copyright {
     font-size: 1.5rem;
   }
 
+  p {
+    font-size: 1.25rem;
+  }
+
   /** Header **/
 
 header .content-wrapper {
@@ -950,10 +945,25 @@ nav ul li a {
 
   /** About **/
 
-
+#about p {
+  font-size: 1.25rem;
+  width: 65%;
+}
 
   /** Footer **/
 
+footer .content-wrapper {
+  max-width: 70%;
+}
+
+footer {
+  padding: 140px 0 140px 0;
+}
+
+footer .social-icons {
+  width: 12.5rem;
+  justify-content: space-between;
+}
 
 
 
