@@ -469,6 +469,38 @@ ul li a:hover {
   padding: 1rem;
 }
 
+.design-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 584.5 432.5'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Mobile_Icon' data-name='Mobile Icon'%3E%3Cpath class='cls-1' d='M569.5,166.5H529V10A10,10,0,0,0,519,0H10A10,10,0,0,0,0,10V23.5H509.69v143H470.5a15,15,0,0,0-15,15V309H0v44a10,10,0,0,0,10,10l210.5,1.5L208,413H188v13H341V413H321l-10.5-50h145v54.5a15,15,0,0,0,15,15h99a15,15,0,0,0,15-15v-236A15,15,0,0,0,569.5,166.5Zm7.59,243.89a15,15,0,0,1-15,15h-84a15,15,0,0,1-15-15v-221a15,15,0,0,1,15-15h2.28a7.61,7.61,0,0,0-.27,2.94v3.11c0,2.73,2.94,4.95,6.56,4.95h69.87c3.62,0,6.56-2.22,6.56-4.95v-3.11a5.83,5.83,0,0,0-.54-2.92,15,15,0,0,1,14.54,15Z'/%3E%3Crect class='cls-1' y='23.5' width='19.31' height='285.5'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 55px;
+    /* Other styles here */
+}
+
+.code-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 542 439'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fff;stroke:%23fff;stroke-miterlimit:10;stroke-width:13px;%7D%3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='code_angles' data-name='code angles'%3E%3Cpath class='cls-1' d='M140.9,176.35l59.75-59.75L140.9,176.35,201,229.5Z'/%3E%3Cpath class='cls-1' d='M341.06,229.69,400.87,170l-60.05-53.21L400.87,170Z'/%3E%3Cpath class='cls-1' d='M525.5,6.5H16.5a10,10,0,0,0-10,10v343a10,10,0,0,0,10,10L227,371l-12.5,48.5h-20v13h153v-13h-20l-10.5-50H525.5a10,10,0,0,0,10-10V16.5A10,10,0,0,0,525.5,6.5Zm-9.31,309H25.81V30H516.19Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 55px;
+  }
+
+.ai-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 79 79'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Crect class='cls-1' width='79' height='79' rx='13'/%3E%3Cpath d='M24.81,47.52,21.65,58h-7L26.54,20.94h8.63L47.21,58H39.94L36.58,47.52Zm10.66-5.11-2.92-9.14c-.72-2.29-1.33-4.81-1.89-7h-.12c-.54,2.18-1.11,4.74-1.76,7l-2.86,9.16Z'/%3E%3Cpath d='M59,23.73a3.6,3.6,0,0,1-3.86,3.66A3.66,3.66,0,1,1,59,23.73ZM51.86,58V31.23h6.77V58Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 55px;
+}
+
+.ps-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 79 79'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Crect class='cls-1' width='79' height='79' rx='13'/%3E%3Cpath d='M17.38,21.41a61.77,61.77,0,0,1,10.37-.76c4.94,0,8.55,1,10.91,3a10.42,10.42,0,0,1,3.63,8.2,11.33,11.33,0,0,1-3.16,8.4c-2.72,2.7-6.91,4-11.72,4A16.15,16.15,0,0,1,24.1,44V58H17.38ZM24.1,38.69a13.74,13.74,0,0,0,3.32.31c5.06,0,8.15-2.53,8.15-6.87,0-4.08-2.86-6.28-7.55-6.28a19.56,19.56,0,0,0-3.92.32Z'/%3E%3Cpath d='M46.41,51.77a14.82,14.82,0,0,0,6.83,2c3,0,4.31-1.25,4.31-3s-1.1-2.73-4.39-3.9c-5.24-1.8-7.43-4.65-7.4-7.82,0-4.71,3.91-8.38,10.16-8.38a15.46,15.46,0,0,1,7.1,1.6L61.67,37A12.22,12.22,0,0,0,56,35.43c-2.41,0-3.75,1.19-3.75,2.84s1.29,2.52,4.68,3.75c4.87,1.72,7.12,4.21,7.14,8.15,0,4.89-3.8,8.41-10.87,8.41a17.35,17.35,0,0,1-8.16-1.88Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 55px;
+}
 /* #skills {
   display: flex;
   justify-content: center;
