@@ -234,7 +234,7 @@ footer {
 }
 
 h2 {
-  margin: 40px 0 40px 0;
+  padding: 40px 0 40px 0;
 }
 
 h3 {
@@ -268,10 +268,6 @@ h4 {
 .about-area h4 {
   margin-top: 30px;
 }
-
-/* #skills h2 {
-  margin-top: 45px;
-} */
 
 #skills h4 {
   margin: 40px 0 40px 0;
@@ -447,7 +443,6 @@ ul li a:hover {
 }
 
 .skill-list {
-  margin: 3rem 0;
   display: flex;
   flex-flow: row wrap;
   flex: 1;
