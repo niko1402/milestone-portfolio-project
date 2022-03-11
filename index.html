@@ -33,7 +33,7 @@
       <div class="content-wrapper">
         <h3>nik payton | web developer</h3>
         <div class="header-divider"></div>
-        <nav>
+        <nav id="navbar">
           <ul class="navigation">
             <li><a href="#projects">projects</a></li>
             <li><a href="#skills">skills</a></li>
@@ -45,145 +45,148 @@
     </header>
 
   <main>
-    <section class="hero-area">
-      <div class="contact-wrapper">
-        <h1>What can I <span>code</span> for you today?</h1>
-      </div>
-    </section>
+    <div class="content">
 
-    <article class="portfolio">
-      <section id="projects">
-        <div class="content-wrapper">
-          <h2>Projects</h2>
-          <div class="portfolio-wrapper">
+      <section class="hero-area">
+        <div class="contact-wrapper">
+          <h1>What can I <span>code</span> for you today?</h1>
+        </div>
+      </section>
+
+      <article class="portfolio">
+        <section id="projects">
+          <div class="content-wrapper">
+            <h2>Projects</h2>
+            <div class="portfolio-wrapper">
+                <div class="portfolio-piece">
+                  <figure>
+                    <img src="img/sticky-note.png" alt="Sticky Note App" />
+                  </figure>
+                    <h4>Super Sticky Notes</h4>
+                      <p class="project-description">A Greenfield project using multiple components to create a classic sticky note UI. You can easily add, delete, edit and search notes. </p>
+                      <p><span>Skills: </span>
+                        React, JSX, Components</p>
+                      <a class="project-link">Live Page</a>
+              </div>
+
               <div class="portfolio-piece">
                 <figure>
-                  <img src="img/sticky-note.png" alt="Sticky Note App" />
+                  <img src="img/guess-the-word.png" alt="Guess the Word game" />
                 </figure>
-                  <h4>Super Sticky Notes</h4>
-                    <p class="project-description">A Greenfield project using multiple components to create a classic sticky note UI. You can easily add, delete, edit and search notes. </p>
+                  <h4>Guess the Word!</h4>
+                    <p class="project-description">Players try to guess the word, one letter at a time. If they correctly guess, without using up all of their chances, they win! </p>
                     <p><span>Skills: </span>
-                      React, JSX, Components</p>
+                    React, JSX, Components</p>
                     <a class="project-link">Live Page</a>
-            </div>
+              </div>
 
-            <div class="portfolio-piece">
-              <figure>
-                <img src="img/guess-the-word.png" alt="Guess the Word game" />
-              </figure>
-                <h4>Guess the Word!</h4>
-                  <p class="project-description">Players try to guess the word, one letter at a time. If they correctly guess, without using up all of their chances, they win! </p>
-                  <p><span>Skills: </span>
-                  React, JSX, Components</p>
-                  <a class="project-link">Live Page</a>
-            </div>
+              <div class="portfolio-piece">
+                <figure>
+                  <img src="img/github-repo.png" alt="Github Repo Page" />
+                </figure>
+                  <h4>Github Repo Gallery</h4>
+                    <p class="project-description">Created using GitHub's API to pull data from my GitHub portfolio. Search for a specific repo, or click on one for more details and a link to the repository.</p>
+                    <p><span>Skills: </span>
+                    React, JSX, Components</p>
+                    <a class="project-link">Live Page</a>
+              </div>
 
-            <div class="portfolio-piece">
-              <figure>
-                <img src="img/github-repo.png" alt="Github Repo Page" />
-              </figure>
-                <h4>Github Repo Gallery</h4>
-                  <p class="project-description">Created using GitHub's API to pull data from my GitHub portfolio. Search for a specific repo, or click on one for more details and a link to the repository.</p>
-                  <p><span>Skills: </span>
-                  React, JSX, Components</p>
-                  <a class="project-link">Live Page</a>
-            </div>
+              <div class="portfolio-piece">
+                <figure>
+                  <img src="img/unplugged.png" alt="Unplugged Retreat Page" />
+                </figure>
+                  <h4>Unplugged</h4>
+                    <p class ="project-description">A multi-page, responsive website that adapts to mobile, tablet and desktop screens. A versatile design that can be repurposed for various scenarios.</p>
+                    <p><span>Skills: </span>
+                      HTML, CSS, JS</p>
+                    <a class="project-link">Live Page</a>
+              </div>
 
-            <div class="portfolio-piece">
-              <figure>
-                <img src="img/unplugged.png" alt="Unplugged Retreat Page" />
-              </figure>
-                <h4>Unplugged</h4>
-                  <p class ="project-description">A multi-page, responsive website that adapts to mobile, tablet and desktop screens. A versatile design that can be repurposed for various scenarios.</p>
-                  <p><span>Skills: </span>
-                    HTML, CSS, JS</p>
-                  <a class="project-link">Live Page</a>
-            </div>
-
-            <div class="portfolio-piece">
-              <figure>
-                <img src="img/rogue.png" alt="Rogue Pickings Site" />
-              </figure>
-                <h4>Rogue Pickings</h4>
-                  <p class="project-description">A simple one-page site that would be great for a local café or a food stand. Converted from a static website into a responsive design using Flexbox.</p>
-                  <p><span>Skills: </span>
-                    HTML, CSS, Photoshop</p>
-                  <a class="project-link">Live Page</a>
+              <div class="portfolio-piece">
+                <figure>
+                  <img src="img/rogue.png" alt="Rogue Pickings Site" />
+                </figure>
+                  <h4>Rogue Pickings</h4>
+                    <p class="project-description">A simple one-page site that would be great for a local café or a food stand. Converted from a static website into a responsive design using Flexbox.</p>
+                    <p><span>Skills: </span>
+                      HTML, CSS, Photoshop</p>
+                    <a class="project-link">Live Page</a>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- <hr class="header-divider"> -->
+        <!-- <hr class="header-divider"> -->
 
-      <section id="skills">
-        <div class="content-wrapper">
-          <h2>Skills</h2>
-          <!-- <h4>Developer Skills</h4> -->
-          <ul class="skill-list">
-            <li class="skill-item">
-              <i class="fab fa-html5"></i>
-              <p class="skill-item-name">Html</p>
-            </li>
-            <li class="skill-item">
-              <i class="fab fa-css3"></i>
-              <p class="skill-item-name">Css</p>
-            </li>
-            <li class="skill-item">
-              <i class="fab fa-js-square"></i>
-              <p class="skill-item-name">JavaScript</p>
-            </li>
-            <li class="skill-item">
-              <i class="fab fa-react"></i>
-              <p class="skill-item-name">React</p>
-            </li>
-            <li class="skill-item">
-              <i class="design-icon"></i>
-              <p class="skill-item-name">Responsive Design</p>
-            </li>
-            <li class="skill-item">
-              <i class="fab fa-git-alt"></i>
-              <p class="skill-item-name">Git</p>
-            </li>
-            <li class="skill-item">
-              <i class="fab fa-github"></i>
-              <p class="skill-item-name">Github</p>
-            </li>
-            <li class="skill-item">
-              <i class="code-icon"></i>
-              <p class="skill-item-name">Rest Api</p>
-            </li>
-            <li class="skill-item">
-              <i class="ai-icon"></i>
-              <p class="skill-item-name">Illustrator</p>
-            </li>
-            <li class="skill-item">
-              <i class="ps-icon"></i>
-              <p class="skill-item-name">Photoshop</p>
-            </li>
-            <li class="skill-item">
-              <i class="coffee-icon"></i>
-              <p class="skill-item-name">Damn Good Coffee</p>
-            </li>
-            <li class="skill-item">
-              <i class="ps-icon"></i>
-              <p class="skill-item-name">Nifty in the Kitchen</p>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </article>
+        <section id="skills">
+          <div class="content-wrapper">
+            <h2>Skills</h2>
+            <!-- <h4>Developer Skills</h4> -->
+            <ul class="skill-list">
+              <li class="skill-item">
+                <i class="fab fa-html5"></i>
+                <p class="skill-item-name">Html</p>
+              </li>
+              <li class="skill-item">
+                <i class="fab fa-css3"></i>
+                <p class="skill-item-name">Css</p>
+              </li>
+              <li class="skill-item">
+                <i class="fab fa-js-square"></i>
+                <p class="skill-item-name">JavaScript</p>
+              </li>
+              <li class="skill-item">
+                <i class="fab fa-react"></i>
+                <p class="skill-item-name">React</p>
+              </li>
+              <li class="skill-item">
+                <i class="design-icon"></i>
+                <p class="skill-item-name">Responsive Design</p>
+              </li>
+              <li class="skill-item">
+                <i class="fab fa-git-alt"></i>
+                <p class="skill-item-name">Git</p>
+              </li>
+              <li class="skill-item">
+                <i class="fab fa-github"></i>
+                <p class="skill-item-name">Github</p>
+              </li>
+              <li class="skill-item">
+                <i class="code-icon"></i>
+                <p class="skill-item-name">Rest Api</p>
+              </li>
+              <li class="skill-item">
+                <i class="ai-icon"></i>
+                <p class="skill-item-name">Illustrator</p>
+              </li>
+              <li class="skill-item">
+                <i class="ps-icon"></i>
+                <p class="skill-item-name">Photoshop</p>
+              </li>
+              <li class="skill-item">
+                <i class="coffee-icon"></i>
+                <p class="skill-item-name">Damn Good Coffee</p>
+              </li>
+              <li class="skill-item">
+                <i class="ps-icon"></i>
+                <p class="skill-item-name">Nifty in the Kitchen</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
 
-    <section id="about">
-      <section class="about-area">
-        <div class="content-wrapper">
-          <h2>About Me</h2>
-          <h4>I love creating and coding things!</h4>
-          <p>Hi! I’m Nik, a British jazz musician and front end web developer currently living in Brazil. I’ve toured extensively throughout Europe and the Americas, been an Artistic Director (of one of the biggest jazz festivals in Brazil), and an English instructor.<br />
-          I have an obsessive need to learn new things, and the pandemic gave me the chance to finally learn to code with Skillcrush. I love nothing more than being challenged, and I’m very focused and persistent when it comes to work. So, whatever your web needs are, I can create the perfect solution for you!</p>
-        </div>
+      <section id="about">
+        <section class="about-area">
+          <div class="content-wrapper">
+            <h2>About Me</h2>
+            <h4>I love creating and coding things!</h4>
+            <p>Hi! I’m Nik, a British jazz musician and front end web developer currently living in Brazil. I’ve toured extensively throughout Europe and the Americas, been an Artistic Director (of one of the biggest jazz festivals in Brazil), and an English instructor.<br />
+            I have an obsessive need to learn new things, and the pandemic gave me the chance to finally learn to code with Skillcrush. I love nothing more than being challenged, and I’m very focused and persistent when it comes to work. So, whatever your web needs are, I can create the perfect solution for you!</p>
+          </div>
+        </section>
       </section>
-    </section>
+    </div>
   </main>
 
   <footer id="contact">

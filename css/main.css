@@ -170,12 +170,6 @@ address {
   font-style: normal;
 }
 
-/* .language-wrapper p,
-.tool-wrapper p {
-  text-transform: uppercase;
-  word-spacing: .25rem;
-} */
-
 .project-link {
   font-size: 1.125rem;
   text-transform: uppercase;
@@ -245,6 +239,10 @@ h4 {
   margin: 0 0 40px 0;
 }
 
+.content {
+  padding: 16px;
+}
+
 .hero-area {
   margin-bottom: 60px;
 }
@@ -311,6 +309,11 @@ header .content-wrapper {
   margin: 40px 0 40px 0;
 }
 
+#navbar {
+  overflow: hidden;
+  background-color: #161717;
+}
+
 header nav {
   display: flex;
   justify-content: space-around;
@@ -329,6 +332,16 @@ header nav ul {
 
 header nav ul li {
   font-size: 1.125rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky .content {
+  padding-top: 60px;
 }
 
 ul li a:hover {
@@ -508,34 +521,6 @@ ul li a:hover {
   height: 35px;
   width: 35px;
 }
-
-/* #skills {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 28px
-}
-
-#skills h2 {
-  color: #c79d2f;
-  width: 100%;
-}
-
-#skills h4 {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.language-wrapper p, .tool-wrapper p {
-  border-radius: 30px;
-  background-color: #526d36;
-  color: #c79d2f;
-  padding: 10px 0;
-  Margin: 20px 0;
-} */
 
 .skill {
   width: 100%;
