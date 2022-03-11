@@ -99,7 +99,7 @@ html {
 }
 
 body {
-  background-color: #262829;
+  background-color: #161717;
   font-size: 1em;
   font-family: 'Raleway', sans-serif;
 }
@@ -457,7 +457,7 @@ ul li a:hover {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  flex-basis: 50%;
+  flex-basis: 35%;
 }
 
 .skill-list li i {
@@ -474,7 +474,7 @@ ul li a:hover {
   background-size: contain;
   background-repeat: no-repeat;
   height: 35px;
-  width: 55px;
+  width: 45px;
     /* Other styles here */
 }
 
@@ -483,7 +483,7 @@ ul li a:hover {
   background-size: contain;
   background-repeat: no-repeat;
   height: 35px;
-  width: 55px;
+  width: 45px;
   }
 
 .ai-icon {
@@ -491,7 +491,7 @@ ul li a:hover {
   background-size: contain;
   background-repeat: no-repeat;
   height: 35px;
-  width: 55px;
+  width: 35px;
 }
 
 .ps-icon {
@@ -499,7 +499,7 @@ ul li a:hover {
   background-size: contain;
   background-repeat: no-repeat;
   height: 35px;
-  width: 55px;
+  width: 35px;
 }
 /* #skills {
   display: flex;
@@ -828,7 +828,7 @@ footer .copyright {
   }
 
   .skill-list li {
-    flex-basis: 25%;
+    flex-basis: 20%;
   }
 
   /* .language-wrapper,
