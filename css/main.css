@@ -234,7 +234,7 @@ footer {
 }
 
 h2 {
-  margin-top: 40px;
+  margin: 40px 0 40px 0;
 }
 
 h3 {
@@ -243,6 +243,10 @@ h3 {
 
 h4 {
   margin: 0 0 40px 0;
+}
+
+.hero-area {
+  margin-bottom: 60px;
 }
 
 #projects h4 {
@@ -265,9 +269,9 @@ h4 {
   margin-top: 30px;
 }
 
-#skills h2 {
+/* #skills h2 {
   margin-top: 45px;
-}
+} */
 
 #skills h4 {
   margin: 40px 0 40px 0;
@@ -395,8 +399,8 @@ ul li a:hover {
 #projects h2 {
   color: #c79d2f;
   text-align: center;
-  margin-bottom: 30px;
-  line-height: 1;
+  /* margin-bottom: 30px; */
+  /* line-height: 1; */
   width: 100%;
 }
 
@@ -840,23 +844,6 @@ footer .copyright {
     flex-basis: 20%;
   }
 
-  /* .language-wrapper,
-  .tool-wrapper {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    flex-flow: row wrap;
-    text-transform: uppercase;
-  }
-
-  .language-wrapper p, .tool-wrapper p {
-    width: 45%;
-  }
-
-  .skill, .tool {
-    width: 45%;
-  } */
-
   /** About **/
 
   /* Change code for this section when the photo is ready */
@@ -1059,12 +1046,6 @@ footer .social-icons {
   justify-content: space-between;
 }
 }
-
-
-
-
-
-
 
 
 
