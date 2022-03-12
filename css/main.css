@@ -159,11 +159,9 @@ span {
 }
 
 img {
-  width: 80%;
-}
-
-figure {
-  margin: 0;
+  margin: 20px 0 0 0;
+  filter: drop-shadow(1px 2px 6px #c79d2f);
+  width: 100%;
 }
 
 address {
@@ -176,6 +174,10 @@ address {
 }
 
 /* ------ Structural Styles ------ */
+
+.content {
+  text-align: center;
+}
 
 header,
 #projects,
@@ -194,7 +196,6 @@ footer {
 
 #projects p, #about p {
   width: 100%;
-  text-align: left;
 }
 
 /* Zero all margins */
@@ -207,20 +208,18 @@ p {
   margin: 0;
 }
 
-figure {
-  margin: 0;
-}
-
 /** Now set margin and paddings to required values for any element **/
 
-#projects,
+/* #projects,
 #skills,
 #about {
   padding: 120px 0 60px 0;
-}
-
-figure {
-  margin: 20px 0 40px 0;
+} */
+.portfolio,
+.skills,
+.about-area,
+.footer {
+  margin: 120px 0 0 0;
 }
 
 footer {
@@ -239,24 +238,35 @@ h4 {
   margin: 0 0 40px 0;
 }
 
-.content {
-  padding: 16px;
-}
-
 .hero-area {
-  margin-bottom: 60px;
+  margin: 0;
 }
 
-#projects h4 {
-  margin: 20px 0 40px 0;
+.project-title {
+  margin: 1.5rem 0rem;
+}
+
+.project-info {
+  margin: 2rem 0rem;
+  width: 100%;
+  flex-basis: 50%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-description {
-  margin: 0 0 30px 0;
+  margin: 1.5rem 0rem;
+}
+
+.project-skills {
+  margin: 1.5rem 0rem;
 }
 
 .project-link {
-  margin: 40px 0 45px 0;
+  margin: 1.5rem 0rem;
 }
 
 .about-area h2 {
@@ -393,16 +403,12 @@ ul li a:hover {
 }
 
 .portfolio-piece {
+  margin: 3rem 2rem;
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-}
-
-.portfolio-piece figure {
-  width: 100%;
-  filter: drop-shadow(1px 2px 6px #c79d2f);
 }
 
 #projects h2 {
