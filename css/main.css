@@ -329,6 +329,25 @@ header .content-wrapper {
   background-color: #161717;
 }
 
+#navbar.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0 10px 0;
+    justify-content: space-evenly;
+    z-index: 1;
+  }
+  
+.navbarOffsetMargin {
+  padding-top: 45px;
+}
+
+nav a.active {
+  color: #c79d2f;
+  background: #161717;
+}
+
 header nav {
   display: flex;
   justify-content: space-around;
@@ -347,16 +366,6 @@ header nav ul {
 
 header nav ul li {
   font-size: 1.125rem;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px 0 10px 0;
-  justify-content: space-evenly;
-  z-index: 1;
 }
 
 ul li a:hover {

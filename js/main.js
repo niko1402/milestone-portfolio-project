@@ -1,17 +1,30 @@
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
-// Get the navbar
 const navbar = document.getElementById("navbar");
+// Find out how far the navbar is from the top of the screen
+var navPos = navbar.getBoundingClientRect().top;
+// Get the section links from the navbar
+const navbarLinks = document.querySelectorAll("navbar a");
 
-// Get the offset position of the navbar
-const sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+// Add an event listener to detect scrolling, and then store the scroll position in a variable
+window.addEventListener("scroll", e => {
+  var scrollPos = window.scrollY;
+  // If the scroll position is greater than the navbar position, add the sticky class.
+  if (scrollPos > navPos) {
+    navbar.classList.add('sticky');
+    header.classList.add('navbarOffsetMargin');
   } else {
-    navbar.classList.remove("sticky");
-  }
-}
+    navbar.classList.remove('sticky');
+    header.classList.remove('navbarOffsetMargin');
+  };
+  // Loop through links in navbar
+  navbarLinks.forEach(link => {
+    var section = document.querySelector(link.hash);
+    // Check if the section is currently onscreen. Add 150 to switch sections when the screen is almost showing 100% of that section
+    // If so, add active class
+    if (scrollPos + 150 > section.offsetTop && scrollPos + 150 < section.offsetTop + section.offsetHeight ) {
+      link.classList.add("active");
+    } else {
+      link.classList.remove("active");
+    }
+  });
+});
+
