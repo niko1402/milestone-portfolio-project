@@ -309,6 +309,13 @@ header h3 {
   margin-bottom: 0;
 }
 
+/* ---- Try this out with the clarint icon at a future date ---- */
+/* header img {
+  filter: none;
+  margin: 0;
+  width: 50%;
+} */
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
