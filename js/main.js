@@ -7,7 +7,7 @@ console.log(navbarLinks);
 
 // Add an event listener to detect scrolling, and then store the scroll position in a variable
 window.addEventListener("scroll", e => {
-  var scrollPos = window.scrollY;
+  const scrollPos = window.scrollY;
   // If the scroll position is greater than the navbar position, add the sticky class.
   if (scrollPos > navPos) {
     navbar.classList.add('sticky');
@@ -17,7 +17,7 @@ window.addEventListener("scroll", e => {
   
   // Loop through links in navbar
   navbarLinks.forEach(link => {
-    var section = document.querySelector(link.hash);
+    const section = document.querySelector(link.hash);
     // Check if the section is currently onscreen. Add 150 to switch sections when the screen is almost showing 100% of that section
     // If so, add active class
     if (scrollPos + 150 > section.offsetTop && scrollPos + 150 < section.offsetTop + section.offsetHeight ) {

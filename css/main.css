@@ -567,17 +567,44 @@ ul li a:hover {
 
 /* ---- About Me ---- */
 
-.about-area {
+/* .about-area {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   background: url('../img/about-me.png') center no-repeat;
   background-size: cover;
-}
+} */
 
 .about-area .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
   padding-top: 40px;
   padding-bottom: 100px;
+  width: 100%;
+  background-color: #999;
+  align-items: center;
+}
+
+.about-photo {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  margin: 60px 0 40px 0;
+  width: 50%;
+}
+
+.about-photo img {
+  filter: none;
+  margin: 0;
+
+}
+
+.about-text {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 80%;
 }
 
 .about-area h2 {
@@ -586,11 +613,12 @@ ul li a:hover {
 
 .about-area h4 {
   color: #262829;
-  text-align: left;
+  text-align: center;
 }
 
 .about-area p {
-  color: #262829;
+  color: #fff;
+  text-align: left;
 }
 
 /* ------------------------ Base Footer Styles ------------------------- */
@@ -863,18 +891,23 @@ footer .copyright {
 
   /* Change code for this section when the photo is ready */
 
-  .about-area {
+  /* .about-area {
     display: flex;
     justify-content: center;
     align-items: center;
     background: url('../img/about-me.png') center no-repeat;
     background-size: cover;
-  }
+  } */
 
   .about-area .content-wrapper {
     justify-content: center;
-    width:90%;
+    /* width:90%; */
+    max-width: inherit;
     /* padding-left: 40px; */
+  }
+
+  .about-photo {
+    width: 40%;
   }
 
   .about-area h3 {
@@ -887,7 +920,7 @@ footer .copyright {
   .about-area h4 {
     color: #262829;
     margin: 25px 0 25px 0;
-    text-align: left;
+    text-align: center;
   }
 
   .about-area p {
