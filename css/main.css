@@ -274,10 +274,6 @@ h4 {
   margin: 1.5rem 0rem;
 }
 
-.about-area h2 {
-  padding-bottom: 20px;
-}
-
 .about-area h4 {
   margin-top: 30px;
 }
@@ -582,7 +578,7 @@ ul li a:hover {
   padding-top: 40px;
   padding-bottom: 100px;
   width: 100%;
-  background-color: #999;
+  background-color: #676767;
   align-items: center;
 }
 
@@ -918,7 +914,7 @@ footer .copyright {
   }
 
   .about-area h4 {
-    color: #262829;
+    color: #fff;
     margin: 25px 0 25px 0;
     text-align: center;
   }
@@ -976,6 +972,26 @@ footer .copyright {
 
   .content-wrapper {
     max-width: 900px;
+  }
+
+  .about-area .content-wrapper {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: inherit;
+  }
+
+  .about-photo {
+    margin: 0 0 0 35px;
+    width: 35%;
+  }
+
+  .about-photo img {
+    padding-top: 60px;
+  }
+
+  .about-text {
+    margin-right: 35px;
+    width: 55%;
   }
 }
 
