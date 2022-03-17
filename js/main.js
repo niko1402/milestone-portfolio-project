@@ -1,6 +1,6 @@
 const navbar = document.getElementById("navbar");
 // Find out how far the navbar is from the top of the screen
-var navPos = navbar.getBoundingClientRect().top;
+const navPos = navbar.getBoundingClientRect().top;
 // Get the section links from the navbar
 const navbarLinks = document.querySelectorAll("li a");
 console.log(navbarLinks);
@@ -27,4 +27,3 @@ window.addEventListener("scroll", e => {
     }
   });
 });
-
