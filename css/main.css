@@ -634,7 +634,8 @@ footer ul {
   width: 100%;
 }
 
-footer address p {
+footer address a {
+  font-size: 1rem;
   color: #c79d2f;
   margin-top: 40px;
 }
@@ -1086,6 +1087,10 @@ footer .content-wrapper {
 
 footer {
   padding: 140px 0 140px 0;
+}
+
+footer address a {
+  font-size: 1.25rem;
 }
 
 footer .social-icons {
