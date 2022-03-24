@@ -234,7 +234,7 @@ h4 {
 }
 
 .project-title {
-  margin: 1.5rem 0rem;
+  margin: 1.5rem 0;
 }
 
 .project-info {
@@ -252,11 +252,6 @@ h4 {
 
 .project-link {
   margin: 1.5rem 0rem;
-}
-
-.about-area h4 {
-  font-family: 'signika negative'sans-serif;
-  margin-top: 30px;
 }
 
 #skills h4 {
@@ -413,9 +408,18 @@ ul li a:hover {
 }
 
 #projects p {
-  text-align: left;
+  text-align: center;
   color: #dddddd;
   width: 100%;
+}
+
+.project-title {
+  color: #fff;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  font-weight: bold;
+  width: 100%;
+  margin: 0 0 40px 0;
 }
 
 .project-info {
@@ -564,7 +568,16 @@ ul li a:hover {
 
 }
 
-.about-text {
+.about-intro {
+  color: #fff;
+  font-family: 'signika negative'sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 0 40px 0;
+}
+
+.about-info {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -575,12 +588,7 @@ ul li a:hover {
   color: #c79d2f;
 }
 
-.about-area h4 {
-  color: #fff;
-  text-align: center;
-}
-
-.about-area p {
+.about-text  {
   color: #dedede;
   text-align: left;
   margin-bottom: 1em;
@@ -850,7 +858,11 @@ footer .contact-wrapper {
     align-items: center;
   }
 
-  .portfolio-area h4 {
+  /* .portfolio-area h4 {
+    margin: 30px 0 10px 0;
+  } */
+
+  .project-title p {
     margin: 30px 0 10px 0;
   }
 
@@ -881,6 +893,7 @@ footer .contact-wrapper {
     width: 40%;
   }
 
+/* double check this code - is it necessary? */
   .about-area h3 {
     color: #c79d2f;
     text-align: center;
@@ -888,13 +901,13 @@ footer .contact-wrapper {
     line-height: 1;
   }
 
-  .about-area h4 {
+  .about-intro {
     color: #fff;
     margin: 25px 0 25px 0;
     text-align: center;
   }
 
-  .about-area p {
+  .about-text {
     font-size: 1rem;
     color: #dedede;
   }
@@ -966,7 +979,7 @@ footer .contact-wrapper {
     padding-top: 60px;
   }
 
-  .about-text {
+  .about-info {
     margin-right: 35px;
     width: 55%;
   }
@@ -1059,7 +1072,7 @@ footer .contact-wrapper {
 
   /*---------------- About ---------------*/
 
-  #about p {
+  .about-text {
     font-size: 1.25rem;
     width: 80%;
   }
