@@ -430,7 +430,7 @@ ul li a:hover {
 .project-link {
   padding: .75rem 3.75rem;
   border-radius: 30px;
-  color: #dddddd;
+  color: #262829;
   background-color: #c79d2f;
   cursor: pointer;
 }
@@ -546,7 +546,7 @@ ul li a:hover {
   padding-top: 40px;
   padding-bottom: 100px;
   width: 100%;
-  background-color: #565656;
+  background-color: #4f4f4f;
   align-items: center;
 }
 
