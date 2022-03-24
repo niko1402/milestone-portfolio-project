@@ -612,49 +612,49 @@ footer .contact-wrapper {
   margin: 0 0 40px 0;
 }
 
-footer h3 {
+.footer h3 {
   color: #c79d2f;
   font-weight: 400;
   margin-bottom: 60px;
 }
 
-footer h5 {
+.footer h5 {
   font-size: 1.5rem;
   font-weight: 400;
   width: 100%;
 }
 
-footer p {
+.footer p {
   color: #dddddd;
   margin: 0;
 }
 
-footer ul {
+.footer ul {
   width: 100%;
 }
 
-footer address a {
+.footer address a {
   font-size: 1rem;
   color: #c79d2f;
   margin-top: 40px;
 }
 
-footer .follow-section {
+.footer .follow-section {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-footer .social-icons {
+.footer .social-icons {
   display: flex;
   justify-content: space-around;
 }
 
-footer .social-icons li i {
+.footer .social-icons li i {
   font-size: 2rem;
 }
 
-footer .copyright {
+.footer .copyright {
   width: 100%;
 }
 
@@ -840,8 +840,14 @@ footer .copyright {
 
   /*---------------- Portfolio Area ----------------*/
 
-  .portfolio-area figure {
-    margin: 0;
+  .portfolio-area article {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .portfolio-area article div {
+    width: 49%;
+    align-items: center;
   }
 
   .portfolio-area h4 {
@@ -857,14 +863,12 @@ footer .copyright {
   }
 
   .portfolio-piece {
-    width: 45%;
-    align-items: center;
+    width: 35%;
   }
 
   .skill-list li {
     flex-basis: 20%;
   }
-
 
   /*---------------- About Me ----------------*/
 
@@ -1046,21 +1050,6 @@ footer .copyright {
 
   .portfolio-area .header-divider {
     margin: 10px 0 10px 0;
-  }
-
-  .portfolio-area article {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .portfolio-area figure {
-    margin: 40px 0 20px 0;
-    width: 49%;
-  }
-
-  .portfolio-area article div {
-    width: 49%;
-    align-items: center;
   }
 
   .portfolio-piece {
