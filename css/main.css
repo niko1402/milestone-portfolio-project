@@ -570,7 +570,7 @@ ul li a:hover {
 
 .about-intro {
   color: #fff;
-  font-family: 'signika negative'sans-serif;
+  font-family: 'signika negative', sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
   text-align: left;
