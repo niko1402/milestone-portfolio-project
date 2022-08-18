@@ -444,6 +444,25 @@ ul li a:hover {
   background-color: #fff;
 }
 
+/* ---------------- Services Area --------------*/
+
+.services .content-wrapper {
+  width: 100%;
+}
+
+.services h1 {
+  font-size: 3.25em;
+  font-family: 'Signika Negative', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  /* margin: 70px 0 70px 45px; */
+  width: 100%;
+}
+
+.services span {
+  color: #c79d2f;
+}
+
 /* ---------------- Skills Area ----------------*/
 
 #skills .content-wrapper {
