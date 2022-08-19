@@ -463,6 +463,19 @@ ul li a:hover {
   color: #c79d2f;
 }
 
+.services-info {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  width: 100%;
+  background-color: #4f4f4f;
+  align-items: center;
+}
+
+
+
 /* ---------------- Skills Area ----------------*/
 
 #skills .content-wrapper {
