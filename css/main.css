@@ -351,6 +351,32 @@ ul li a:hover {
 
 /* ==================== Mobile styles - Homepage ==================== */
 
+/* ----------------- Landing Page ---------------*/
+
+.landing-page .content-wrapper {
+  width: 90%;
+  min-height: 700px;
+}
+
+.landing-page {
+  background: url('../img/full-backgroundbw.png') center no-repeat;
+  background-size: cover;
+}
+
+.landing-page h1 {
+  font-size: 3.25em;
+  font-family: 'Signika Negative', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 70px 0 70px 45px;
+  width: 65%;
+}
+
+.landing-page span {
+  color: #c79d2f;
+}
+
+
 /* ---------------- Hero Area ----------------*/
 
 .hero-area .content-wrapper {
