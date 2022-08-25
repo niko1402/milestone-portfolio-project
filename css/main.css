@@ -376,6 +376,32 @@ ul li a:hover {
   color: #c79d2f;
 }
 
+.choose-language {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  width: 70%;
+}
+
+.uk-flag img {
+  margin: 0;
+  filter: none;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 30%;
+  height: 30%;
+}
+
+.brazil-flag img {
+  margin: 0;
+  filter: none;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 30%;
+  height: 30%;
+}
 
 /* ---------------- Hero Area ----------------*/
 
