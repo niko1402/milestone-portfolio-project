@@ -477,14 +477,45 @@ ul li a:hover {
   background-color: #4f4f4f;
   align-items: center;
 }
+.services-info {
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: space-around;
+  margin: 3rem 2rem;
+}
+
+.services-info h3 {
+  margin: 100px 0 30px 0;
+}
+
+.services-info li {
+  color: #fff;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 50%;
+  margin: 30px 0 30px 0;
+}
+
+.services-list li i {
+  margin: 30px 0 30px 0;
+}
 
 .services-info {
   margin: 40px;  
 }
 
+.services-info p {
+  margin: 15px 0;
+}
 .services-info i {
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 3rem;
+}
+
+.services-info hr {
+  width: 30%;
+  margin:auto;
 }
 /* ---------------- Skills Area ----------------*/
 
@@ -539,8 +570,8 @@ ul li a:hover {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 584.5 432.5'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Mobile_Icon' data-name='Mobile Icon'%3E%3Cpath class='cls-1' d='M569.5,166.5H529V10A10,10,0,0,0,519,0H10A10,10,0,0,0,0,10V23.5H509.69v143H470.5a15,15,0,0,0-15,15V309H0v44a10,10,0,0,0,10,10l210.5,1.5L208,413H188v13H341V413H321l-10.5-50h145v54.5a15,15,0,0,0,15,15h99a15,15,0,0,0,15-15v-236A15,15,0,0,0,569.5,166.5Zm7.59,243.89a15,15,0,0,1-15,15h-84a15,15,0,0,1-15-15v-221a15,15,0,0,1,15-15h2.28a7.61,7.61,0,0,0-.27,2.94v3.11c0,2.73,2.94,4.95,6.56,4.95h69.87c3.62,0,6.56-2.22,6.56-4.95v-3.11a5.83,5.83,0,0,0-.54-2.92,15,15,0,0,1,14.54,15Z'/%3E%3Crect class='cls-1' y='23.5' width='19.31' height='285.5'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 35px;
-  width: 45px;
+  height: 40px;
+  width: 50px;
 }
 
 .code-icon {
