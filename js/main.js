@@ -1,4 +1,4 @@
-const navbar = document.getElementById("navbar");
+const navbar = document.getElementById("nav-top");
 // Find out how far the navbar is from the top of the screen
 const navPos = navbar.getBoundingClientRect().top;
 // Get the section links from the navbar

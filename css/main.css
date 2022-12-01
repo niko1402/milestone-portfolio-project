@@ -300,12 +300,12 @@ header .content-wrapper {
   margin: 40px 0 40px 0;
 } */
 
-.navigation {
+#nav-top {
   overflow: hidden;
   background-color: #161717;
 }
 
-#navbar.sticky {
+#nav-top.sticky {
   position: fixed;
   top: 0;
   left: 0;
@@ -326,27 +326,6 @@ header .content-wrapper {
 nav a.active {
   color: #c79d2f;
   background: #161717;
-}
-
-.navigation a:not(:first-child) {display: none;}
-
-.navigation a.icon {
-  float: right;
-  display: block;
-}
-
-.navigation.responsive {position: relative;}
-
-.navigation.responsive a.icon {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.navigation.responsive a {
-  float: none;
-  display: block;
-  text-align: left;
 }
 
 header nav {
