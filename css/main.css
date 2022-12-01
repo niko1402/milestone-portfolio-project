@@ -337,6 +337,7 @@ nav a.active {
 .nav-menu {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
 }
 
@@ -344,7 +345,10 @@ nav a.active {
   font-size: 1.125rem;
 }
 
-.nav-item a:hover {
+.nav-link {
+  transition: 0.7s ease;
+}
+.nav-link:hover {
   color: #c79d2f;
 }
 
