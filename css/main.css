@@ -281,6 +281,7 @@ header {
 }
 
 header h3 {
+  font-size: 1.75rem;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -292,13 +293,13 @@ header .content-wrapper {
   flex-flow: row wrap;
   margin: 0;
 }
-/* 
+
 .header-divider {
   background: #dddddd;
   width: 100%;
   height: 1px;
-  margin: 40px 0 40px 0;
-} */
+  margin: 15px 0 15px 0;
+}
 
 #nav-top {
   overflow: hidden;
@@ -854,7 +855,18 @@ footer .contact-wrapper {
 
    /* ====== Hamburger mobile up to tablet screens ====== */
 
+
 @media(max-width: 768px) {
+
+  header .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  header h3 {
+    font-size: 1.4rem;
+  }
+
   .hamburger {
     display: block;
   }
@@ -874,7 +886,7 @@ footer .contact-wrapper {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 70px;
+    top: 115px;
     gap: 0;
     flex-direction: column;
     background-color: #161717;
@@ -884,7 +896,7 @@ footer .contact-wrapper {
   }
 
   .nav-item {
-    margin: 16px 0;
+    margin: 10px 0;
   }
 
   .nav-menu.active {
@@ -892,7 +904,27 @@ footer .contact-wrapper {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media(min-width: 600px) {
+  header .content-wrapper {
+    display: flex;
+    flex-flow: row;
+    width: 85%;
+  }
+  
+  .header-divider {
+   display: none;
+  }
+
+  header h3 {
+    font-size: 1.75rem;
+  }
+
+  .navbar {
+    justify-content: flex-end;
+  }
+}
+
+@media only screen and (min-width: 769px) {
 
   /* ================================ 
           Tablet styles here 
@@ -946,7 +978,7 @@ footer .contact-wrapper {
 
   header h3 {
     font-size: 1.75rem;
-    width: 50%;
+    text-align: left;
   }
 
   header nav {
