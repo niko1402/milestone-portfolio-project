@@ -277,7 +277,7 @@ h4 {
 /* ------------------------- Base Header Styles -------------------- */
 
 header {
-  padding: 30px 0 140px 0;
+  padding: 30px 0 100px 0;
 }
 
 header h3 {
@@ -921,6 +921,7 @@ footer .contact-wrapper {
 
   .navbar {
     justify-content: flex-end;
+    width: 50%
   }
 }
 
@@ -934,7 +935,7 @@ footer .contact-wrapper {
   /* ------ General Styles ------*/
 
   .content-wrapper {
-    max-width: 640px;
+    max-width: 750px;
   }
 
 
@@ -968,7 +969,7 @@ footer .contact-wrapper {
 
   header {
     justify-content: space-around;
-    padding: 60px 0 200px 0;
+    padding: 60px 0 160px 0;
   }
 
   header .content-wrapper {
@@ -977,8 +978,13 @@ footer .contact-wrapper {
   }
 
   header h3 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     text-align: left;
+    width: 60%;
+  }
+
+  .navbar {
+    width: 100%;
   }
 
   header nav {
@@ -987,11 +993,11 @@ footer .contact-wrapper {
     width: 50%;
   }
 
-  header nav ul li {
+  .nav-menu .nav-item {
     font-size: 1.125rem;
   }
 
-  header nav ul {
+  .nav-menu {
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -1195,7 +1201,7 @@ footer .contact-wrapper {
   header .content-wrapper {
     display: flex;
     justify-content: center;
-    flex-flow: row wrap;
+    flex-flow: row;
     width: 90%;
   }
 
@@ -1204,7 +1210,7 @@ footer .contact-wrapper {
   }
 
   header h3 {
-    font-size: 2.75rem;
+    font-size: 2.2rem;
   }
 
   header nav {
