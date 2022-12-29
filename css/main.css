@@ -13,7 +13,7 @@
 
 html {
   color: #fff;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 1.4;
 }
 
@@ -99,7 +99,7 @@ html {
 
 body {
   background-color: #161717;
-  font-size: 1rem;
+  font-size: 1em;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -427,10 +427,16 @@ nav a.active {
   width: 100%;
 }
 
-.project-description, 
+#projects p {
+  text-align: center;
+  color:#dddddd;
+  width: 100%;
+}
+
+/* .project-description, 
 .project-skills {
   text-align: left;
-}
+} */
 
 .project-title {
   color: #fff;
@@ -619,11 +625,11 @@ nav a.active {
 
 /* ============== Services and FAQ Page =============*/
 
-.faq {
+/* .faq-answers {
   width: 37rem;
   margin: auto;
   text-align: left;
-}
+} */
 
 .faq h4 {
   margin: 80px 0 30px 0;
