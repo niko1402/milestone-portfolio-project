@@ -13,7 +13,7 @@
 
 html {
   color: #fff;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -99,7 +99,7 @@ html {
 
 body {
   background-color: #161717;
-  font-size: 1em;
+  font-size: 1rem;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -143,6 +143,10 @@ h4 {
 
 h5 {
   font-size: 1.5rem;
+}
+
+p {
+  color: #dddddd;
 }
 
 p, li {
@@ -242,10 +246,7 @@ h4 {
   padding: 2rem;
 }
 
-.project-description {
-  margin: 1.5rem 0rem;
-}
-
+.project-description, 
 .project-skills {
   margin: 1.5rem 0rem;
 }
@@ -385,7 +386,7 @@ nav a.active {
 }
 
 .hero-area h1 {
-  font-size: 3.25em;
+  font-size: 3.25rem;
   font-family: 'Signika Negative', Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 1.5;
@@ -426,10 +427,9 @@ nav a.active {
   width: 100%;
 }
 
-#projects p {
-  text-align: center;
-  color: #dddddd;
-  width: 100%;
+.project-description, 
+.project-skills {
+  text-align: left;
 }
 
 .project-title {
@@ -610,7 +610,7 @@ nav a.active {
 .about-text  {
   color: #dedede;
   text-align: left;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 .about-area span {
@@ -635,7 +635,7 @@ nav a.active {
 }
 
 .services h1 {
-  font-size: 3.25em;
+  font-size: 3.25rem;
   font-family: 'Signika Negative', Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 1.5;
