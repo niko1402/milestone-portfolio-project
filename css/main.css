@@ -151,7 +151,7 @@ p {
 
 p, li {
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.75;
 }
 
 span {
@@ -618,6 +618,12 @@ nav a.active {
 }
 
 /* ============== Services and FAQ Page =============*/
+
+.faq {
+  width: 37rem;
+  margin: auto;
+  text-align: left;
+}
 
 .faq h4 {
   margin: 80px 0 30px 0;
