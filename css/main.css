@@ -13,7 +13,7 @@
 
 html {
   color: #fff;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -114,7 +114,7 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h3, h4, h5 {
   color: #fff;
   line-height: 1.5;
   width: 100%;
@@ -131,6 +131,7 @@ h1 {
 h2 {
   font-size: 2rem;
   font-weight: bold;
+  color:#c79d2f;
 }
 
 h3 {
@@ -427,16 +428,10 @@ nav a.active {
   width: 100%;
 }
 
-#projects p {
-  text-align: center;
-  color:#dddddd;
-  width: 100%;
-}
-
-/* .project-description, 
+.project-description, 
 .project-skills {
   text-align: left;
-} */
+}
 
 .project-title {
   color: #fff;
@@ -631,11 +626,19 @@ nav a.active {
   text-align: left;
 } */
 
-.faq h4 {
+.faq-questions {
+  color: #c79d2f;
   margin: 80px 0 30px 0;
 }
 
-.service-page {
+/* .faq p {
+  text-align: left;
+  width: 37em;
+  margin: auto;
+} */
+
+.service-page,
+.faq-page {
   text-align: center;
 }
 
@@ -646,16 +649,18 @@ nav a.active {
   width: 85%;
 }
 
-.services h1 {
-  font-size: 3.25rem;
+.services h2 {
+  font-size: 2rem;
   font-family: 'Signika Negative', Helvetica, Arial, sans-serif;
   font-weight: 600;
+  color: #c79d2f;
   line-height: 1.5;
   padding-bottom: 140px;
   width: 100%;
 }
 
-.services {
+.services,
+.faqs {
   display: flex;
   justify-content: space-between;
   flex-flow: column;
