@@ -427,11 +427,11 @@ nav a.active {
   width: 100%;
 }
 
-/* #projects p {
+#projects p {
   text-align: center;
   color:#dddddd;
   width: 100%;
-} */
+}
 
 .project-description, 
 .project-skills {
@@ -625,17 +625,23 @@ nav a.active {
 
 /* ============== Services and FAQ Page =============*/
 
-/* .faq-answers {
-  width: 37rem;
-  margin: auto;
+.faq {
   text-align: left;
-} */
-
-.faq h4 {
-  margin: 80px 0 30px 0;
+  margin: auto;
 }
 
-.service-page {
+.faq-answers {
+  text-align: left;
+}
+
+.faq-questions {
+  color: #c79d2f;
+  margin: 80px 0 30px 0;
+  text-align: left;
+}
+
+.service-page, 
+.faq-page {
   text-align: center;
 }
 
@@ -655,7 +661,8 @@ nav a.active {
   width: 100%;
 }
 
-.services {
+.services, 
+.faqs {
   display: flex;
   justify-content: space-between;
   flex-flow: column;
@@ -935,6 +942,10 @@ footer .contact-wrapper {
     justify-content: flex-end;
     width: 50%
   }
+
+  .faq {
+    width: 70%;
+  }
 }
 
 @media only screen and (min-width: 769px) {
@@ -1092,7 +1103,6 @@ footer .contact-wrapper {
     color: #dedede;
   }
 
-
   /*---------------- Footer ----------------*/
 
   footer {
@@ -1167,6 +1177,10 @@ footer .contact-wrapper {
     margin-right: 35px;
     width: 55%;
   }
+
+  .faq {
+    width: 65%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -1196,7 +1210,7 @@ footer .contact-wrapper {
   }
 
   h4 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   h5 {
@@ -1260,6 +1274,11 @@ footer .contact-wrapper {
     width: 80%;
   }
 
+  /*---------------- FAQ page --------------*/
+
+  .faq {
+    width: 60%;
+  }
 
   /*---------------- Footer ----------------*/
 
