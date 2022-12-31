@@ -648,6 +648,12 @@ nav a.active {
 .service-page span {
   color: #c79d2f;
 }
+
+.faq-page span {
+  color: #c79d2f;
+}
+
+
 .services .content-wrapper {
   width: 85%;
 }
