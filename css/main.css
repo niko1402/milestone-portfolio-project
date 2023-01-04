@@ -428,7 +428,7 @@ nav a.active {
 }
 
 #projects p {
-  text-align: center;
+  text-align: left;
   color:#dddddd;
   width: 100%;
 }
